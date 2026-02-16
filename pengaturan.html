@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pengaturan</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="pengaturan.css">
+</head>
+<body>
+<div class="container py-5">
+    <div class="card shadow p-4">
+        <h4 class="mb-4">Pengaturan Sistem</h4>
+        <div class="mb-4">
+            <label class="form-label fw-bold">Tema Tampilan</label>
+            <select id="themeSelect" class="form-select">
+                <option value="light">Terang</option>
+                <option value="dark">Gelap</option>
+            </select>
+        </div>
+        <div class="mb-4">
+            <label class="form-label fw-bold">Dropdown Menu</label>
+            <select id="menuMode" class="form-select">
+                <option value="multi">Boleh banyak terbuka</option>
+                <option value="single">Buka satu, lainnya menutup</option>
+            </select>
+        </div>
+        <a href="home.html" class="btn btn-success w-100">
+            Simpan & Kembali
+        </a>
+    </div>
+</div>
+<script src="settings.js"></script>
+</body>
+</html>
